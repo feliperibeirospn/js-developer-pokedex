@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #2e6eec;
 }
 
 .content {
@@ -12,6 +12,10 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
+}
+
+.content h1 {
+    text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -22,3 +26,6 @@ body {
         border-radius: 1rem;
     }
 }
+
+
+
