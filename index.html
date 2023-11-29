@@ -23,25 +23,21 @@
 </head>
 
 <body>
-    <section class="content">
-        <h1>Pokedex</h1>
-        
-        <ol id="pokemonList" class="pokemons">
-            <!-- ..... Pokemons here ..... -->
-        </ol>
-        
-        <div id="detailsOverlay" class="details-overlay">
-            <div class="details-content">
-                <!-- Conteúdo dos detalhes do Pokémon aqui -->
-            </div>
-        </div>
-        
-        <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
-        </div>
+    <section id="pokemonList" class="pokemons">
+        <!-- Lista de Pokemons é renderizada aqui -->
     </section>
+
+    <aside id="detailsOverlay" class="details-overlay">
+        <div class="details-content">
+            <!-- Conteúdo dos detalhes do Pokémon será inserido aqui -->
+        </div>
+    </aside>
+
+    <nav class="pagination">
+        <button id="loadMoreButton" type="button">
+            Carregar Mais
+        </button>
+    </nav>  
 
     <!-- Nosso JS -->
     <script src="assets/js/pokemon-model.js"></script>
